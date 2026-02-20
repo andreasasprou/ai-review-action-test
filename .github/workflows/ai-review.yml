@@ -25,4 +25,5 @@ jobs:
           fetch-depth: 0
       - uses: andreasasprou/ai-review-action@v1
         with:
-          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          opencode-auth-json-b64: ${{ secrets.OPENCODE_AUTH_JSON_B64 }}
+          model: openai/gpt-4o
