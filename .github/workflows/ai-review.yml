@@ -26,4 +26,4 @@ jobs:
       - uses: andreasasprou/ai-review-action@v1
         with:
           opencode-auth-json-b64: ${{ secrets.OPENCODE_AUTH_JSON_B64 }}
-          model: openai/gpt-4o
+          model: openai/gpt-5.2
